@@ -1,0 +1,7 @@
+/allure_rep
+__pycache__
+/assets
+*.log
+*.png
+/*.html
+/*.wpu

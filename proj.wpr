@@ -1,0 +1,61 @@
+#!wing
+#!version=7.0
+##################################################################
+# Wing project file                                              #
+##################################################################
+[project attributes]
+console.toolbox = [{'autosave': False,
+                    'id': 'cmd-OAvH3sxWFmFNOdO9',
+                    'io_encoding': None,
+                    'key_binding': None,
+                    'line_mode': True,
+                    'loc': u'K:\\dev\\mailru\\start.py',
+                    'pseudo_tty': False,
+                    'raise_panel': True,
+                    'shared': False,
+                    'title': None},
+                   {'autosave': False,
+                    'id': 'cmd-dEM1VOwGHSQsAmyS',
+                    'io_encoding': None,
+                    'key_binding': None,
+                    'line_mode': True,
+                    'loc': u'K:\\dev\\mailru\\fixer\\test_fixer.py',
+                    'pseudo_tty': False,
+                    'raise_panel': True,
+                    'shared': False,
+                    'title': None},
+                   {'autosave': False,
+                    'id': 'cmd-DIyuSI9V0EraSRwU',
+                    'io_encoding': None,
+                    'key_binding': None,
+                    'line_mode': True,
+                    'loc': u'K:\\dev\\mailru\\run.py',
+                    'pseudo_tty': False,
+                    'raise_panel': True,
+                    'shared': False,
+                    'title': None}]
+proj.directory-list = [{'dirloc': loc('fixer'),
+                        'excludes': (),
+                        'filter': '*',
+                        'include_hidden': False,
+                        'recursive': True,
+                        'watch_for_changes': True},
+                       {'dirloc': loc('.'),
+                        'excludes': [u'allure_rep',
+                                     u'geckodriver.log',
+                                     u'assets',
+                                     u'go_mail/geckodriver.log',
+                                     u'go_mail/dotdict.py',
+                                     u'allure',
+                                     u'report.html'],
+                        'filter': '*',
+                        'include_hidden': False,
+                        'recursive': True,
+                        'watch_for_changes': True}]
+proj.file-list = [loc('fixer/common.py'),
+                  loc('fixer/test_fixer.py'),
+                  loc('fixer/__init__.py'),
+                  loc('go_mail/test_suggests.py'),
+                  loc('run.py')]
+proj.file-type = 'shared'
+proj.main-file = loc('run.py')
